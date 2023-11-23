@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css />
+   
+</head>
+
+<body>
+    <div class="text-center">
+        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/sum-of-two-numbers-img.png" class="image" />
+        <div class="bg-container pt-5 pb-5">
+            <span class="number m-2" id="firstNumber"></span>
+            <span class="operator m-1"></span>
+            <span class="number m-2" id="secondNumber"></span>
+            <span class="operator m-1">=</span>
+            <input class="user-input" id="userInput" type="text" />
+            <div class="mt-4 mb-4">
+                <button id="checkButton" class="btn btn-primary mr-3" onclick=checkButton()>
+                    Check
+                </button>
+                <button id="restartButton" class="btn btn-primary" onclick=restartButton()>
+                    Restart
+                </button>
+            </div>
+            <p class="game-result" id="gameResult"></p>
+        </div>
+    </div>
+  <script src="script.js"/>
+</body>
+
+</html>
